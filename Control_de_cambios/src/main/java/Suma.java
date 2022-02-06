@@ -20,6 +20,7 @@ class Suma {
    public static void main( String[] args ) {
      int numero1 = 0;
      int numero2 = 0;
+     int numero3 = 0;
      int resultado = 0;
      Scanner reader = new Scanner(System.in);
   
@@ -28,9 +29,13 @@ class Suma {
 
     System.out.println("Introduce el segundo número:");
     numero2 = reader.nextInt();
+    
+    System.out.println("Introduce el tercer número:");
+    numero3 = reader.nextInt();
 
-    resultado = numero1+numero2;
 
-    System.out.println("La suma es " + numero1 + " + " + numero2 + " = " + resultado);
+    resultado = numero1+numero2+numero3;
+
+    System.out.println("La suma es " + numero1 + " + " + numero2 + " = " + numero3 + " = "  + resultado);
 }
 }
