@@ -21,6 +21,7 @@ class Suma {
      int numero1 = 0;
      int numero2 = 0;
      int numero3 = 0;
+     
      int resultado = 0;
      Scanner reader = new Scanner(System.in);
   
